@@ -1,0 +1,2 @@
+graft example_flask_app/templates
+graft example_flask_app/static

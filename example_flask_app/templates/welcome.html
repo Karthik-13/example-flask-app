@@ -1,0 +1,36 @@
+<!doctype html>
+<title>{% block title %}Welcome{% endblock %} | Example Flask Application</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="page">
+<h1>Example Flask App</h1>
+  <div class="navigation">
+  </div>
+ <div class="body">
+  {% block body %}
+<div id="Content">
+<div class="boxed">
+<div id="lipsum">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lacus ut magna placerat egestas gravida congue metus. Nunc at sodales ante. Curabitur eros nulla, vestibulum vel ullamcorper vel, placerat quis nibh. Mauris quis erat pharetra, iaculis turpis a, aliquet tortor. Aliquam vel gravida diam. Phasellus ac odio nulla. Proin dignissim rhoncus ligula ut feugiat. Nam egestas, arcu dignissim sodales placerat, dui ex molestie sapien, at fringilla nulla sapien auctor mi. Maecenas porttitor, quam malesuada elementum iaculis, augue ante bibendum turpis, at tempus enim eros quis eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id metus non tortor efficitur placerat sit amet ut quam. Proin fringilla, nisl in auctor mollis, sem leo ornare tortor, in convallis tortor magna nec massa. Nullam ultricies enim non massa vulputate, vel condimentum ligula pellentesque.
+</p>
+<p>
+Aliquam erat volutpat. Suspendisse ultricies fermentum enim nec egestas. Quisque euismod dignissim quam a tincidunt. Duis in erat eget dolor bibendum malesuada. Nam eget libero eget tortor tempor iaculis at quis libero. Pellentesque cursus, lectus ut ullamcorper bibendum, neque lorem dapibus arcu, eget molestie dolor libero eu ligula. Vestibulum pellentesque commodo eros quis ultrices. Donec in eros sapien. Praesent nec mauris quis augue tincidunt lobortis. Aliquam eget sapien at velit faucibus tincidunt ac in nunc. In dignissim odio vitae arcu feugiat, vel cursus nisl tincidunt. Proin lobortis volutpat pretium. Fusce tincidunt arcu id tellus mollis posuere. Proin ante ex, auctor id risus nec, vestibulum scelerisque enim. Sed augue velit, elementum non velit quis, interdum luctus purus.
+</p>
+<p>
+Phasellus convallis enim in nulla posuere facilisis. Cras dictum libero vitae tortor viverra, eu lobortis ipsum elementum. Integer dignissim, diam id mattis feugiat, tortor urna tristique erat, a congue eros elit eget eros. Curabitur ultrices augue non magna varius bibendum. Aliquam erat volutpat. In luctus ut eros eu tempor. Ut in gravida magna. Cras non enim sit amet urna iaculis feugiat vitae ut lacus. Donec scelerisque at ex vitae lacinia. In posuere leo pulvinar mauris tempor efficitur. Pellentesque massa diam, mattis at odio sed, blandit gravida quam. Morbi posuere ac ante ac dignissim. Duis eget dignissim dolor. Mauris dapibus sollicitudin elit quis elementum. Morbi placerat ac diam non aliquet. Nullam non porttitor nisl.
+</p>
+<p>
+Aenean vel magna viverra, maximus ipsum in, euismod nisl. Etiam condimentum in urna a laoreet. Vivamus auctor consectetur semper. Nullam lectus ante, sodales efficitur fringilla id, placerat id leo. Pellentesque quis dui ac odio rhoncus aliquet quis id massa. Vestibulum et felis molestie, sagittis mauris id, volutpat odio. Nullam posuere tortor orci. Pellentesque quam elit, pharetra non turpis et, condimentum cursus ligula. Pellentesque eros purus, lobortis ac cursus congue, tempus vitae nulla. Maecenas efficitur sem quis dolor imperdiet, a lacinia massa lobortis. Nullam sagittis malesuada tincidunt. Fusce est ex, interdum vitae neque a, euismod mollis ex.
+</p>
+<p>
+Quisque hendrerit hendrerit elit, vel finibus massa porta ac. Sed sollicitudin, lorem vel molestie gravida, risus quam bibendum ipsum, et tincidunt risus velit nec quam. Maecenas laoreet ex fringilla lectus fringilla, vel malesuada quam facilisis. Nulla eleifend, eros id rhoncus consequat, eros velit rutrum elit, a gravida tortor neque ac magna. Aenean sit amet ultrices diam, nec ultricies arcu. Mauris eros justo, rutrum sit amet iaculis quis, aliquet et sapien. Fusce turpis nunc, tempus a pharetra id, lobortis a nisl. Nullam justo velit, facilisis eu lacus in, venenatis convallis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+</div>
+</div>
+</div>
+{% endblock %}
+  </div>
+  <div class="footer">
+    Example Flask App
+  </div>
+</div>
