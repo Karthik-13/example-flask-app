@@ -8,7 +8,5 @@ def welcome():
     print(l[2])
     return render_template('welcome.html')
 
-return
-
 if __name__ == '__main__':
     app.run()
